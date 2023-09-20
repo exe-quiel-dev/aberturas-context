@@ -5,7 +5,10 @@ const ModalProducto = () => {
 
   return (
     <div className="flex items-center justify-center container mx-auto z-50">
-      <div className="modal flex items-center justify-center sticky p-10">
+      <div 
+        className="modal flex items-center justify-center sticky p-10"
+        onClick={handleModalProducto}
+      >
         <div className="bg-gray-100 w-full md:w-1/2 rounded p-5">
           <img src={producto.img} alt={producto.nombre} className="w-full" />
           <div className="p-4 w-full text-center">
