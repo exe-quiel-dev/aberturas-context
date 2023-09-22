@@ -25,7 +25,7 @@ function Layout() {
                     id="navigation"
                 >
                     <div
-                        className="flex flex-col lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto"
+                        className="grid grid-cols-2 md:flex md:flex-col lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto"
                     >
                         <Link
                             to="/"
