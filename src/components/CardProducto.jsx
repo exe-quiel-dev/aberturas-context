@@ -12,12 +12,12 @@ const CardProducto = ({prod}) => {
       <img src={prod.img} alt={`Imagen ${prod.nombre}`} onClick={handleModalProducto} />
       <h2>{prod.nombre}</h2>
       <button
-        className="my-2 text-2xl btn p-2 text-gray-400 hover:text-gray-800 transition-all px-5"
+        className="my-2 text-2xl btn p-2 text-gray-400 hover:text-gray-800 transition-all px-8"
         onClick={() => {
           handleModalProducto()
           setProducto(prod)
         }}
-      >Info</button>
+      ><span className="span-btn uppercase">Info</span></button>
     </div>
   )
 }

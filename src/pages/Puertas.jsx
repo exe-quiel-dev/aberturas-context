@@ -7,27 +7,27 @@ const Puertas = () => {
           <Link
             to='/chapasimple'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >Chapa Simple</Link>
+          > <span className="span-btn">Chapa Simple</span> </Link>
           <Link
             to='/doblechapa'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >Chapa Doble</Link>
+          ><span className="span-btn">Chapa Doble</span></Link>
           <Link
             to='/seguridad'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >De Seguridad</Link>
+          ><span className="span-btn">De Seguridad</span></Link>
           <Link
             to='/placa'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >Placa</Link>
+          ><span className="span-btn">Placa</span></Link>
           <Link
             to='/aluminio'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >Aluminio</Link>
+          ><span className="span-btn">Aluminio</span></Link>
           <Link
             to='/plegadizas'
             className="text-white text-xl bg-white/25 btn p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
-          >Plegadizas</Link>
+          ><span className="span-btn">Plegadizas</span></Link>
         </div>
         </section>
     )

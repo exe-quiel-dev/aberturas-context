@@ -11,7 +11,7 @@ const ModalProducto = () => {
         <button
         className="my-2 text-2xl btn p-2 text-gray-400 hover:text-gray-800 transition-all px-5 btn-close"
         onClick={handleModalProducto}
-      > X </button>
+      ><span className="span-btn-close"> X </span> </button>
         <div className="bg-gray-100 w-full md:w-1/2 rounded p-5 flex flex-col items-center justify-center">
           <img src={producto.img} alt={producto.nombre} className="w-4/5" />
           <div className="p-4 w-full text-center">
