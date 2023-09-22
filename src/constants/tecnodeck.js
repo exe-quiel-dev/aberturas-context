@@ -1,4 +1,4 @@
-import img1 from '../../public/imgs/tecno_deck.jpg'
+import img1 from '../assets/tecno_deck.jpg'
 
 export const tecnodeck = [
   {
@@ -8,3 +8,5 @@ export const tecnodeck = [
     img: img1
   }
 ]
+
+export default tecnodeck

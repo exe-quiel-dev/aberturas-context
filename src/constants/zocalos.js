@@ -1,4 +1,4 @@
-import img1 from '../../public/imgs/tecno-zocalos-02.png'
+import img1 from '../assets/tecno-zocalos-02.png'
 
 export const zocalos = [
   {
@@ -8,3 +8,5 @@ export const zocalos = [
     img: img1
   }
 ]
+
+export default zocalos

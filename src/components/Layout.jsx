@@ -11,7 +11,7 @@ function Layout() {
 
     return (
         <>
-            <nav className="flex items-center bg-nav p-3 flex-wrap sticky top-0 z-10 border-b border-gray-200">
+            <nav className="flex items-center bg-nav p-3 flex-wrap relative md:sticky top-0 z-10 border-b border-gray-200">
                 <h1><Link to="/" className="p-2 mr-4 inline-flex items-center">
                     <span className="text-xl text-white font-bold uppercase tracking-wide"
                     ><img src={logo} alt='Imagen logotipo' className='hidden xl:inline w-1/6' /></span>
@@ -25,7 +25,7 @@ function Layout() {
                     id="navigation"
                 >
                     <div
-                        className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto"
+                        className="flex flex-col lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto"
                     >
                         <Link
                             to="/"

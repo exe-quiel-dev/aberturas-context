@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,19 +24,6 @@ body {
     background-image: url('./assets/the_doors-wallpaper-1920x1080.jpg');
 }
 
-.btn {
-    /* padding: 0.5em 1em; */
-    background-color: #BFBBBF;
-    border: none;
-    user-select: none;
-    cursor: pointer;
-    font-size: 20px;
-    text-transform: uppercase;
-    transition: all 0.5s linear;
-    color: #fff;
-    border-radius: 5px;
-}
-
 
 .modal {
     position: fixed;
@@ -47,52 +34,112 @@ body {
     bottom: 0;
 }
 
-.btn:hover {
-    background-color:#1e183a;
-    border-radius: 5px;
-    scale: 1;
+/* BOTON INFO */
+
+.btn {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
-.btn::after{
+.btn::before {
     content: '';
-    background: #031B5A;
-    width: 0;
-    height: 100%;
     position: absolute;
-    inset: 0;
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-    border-radius: 5px;
-    z-index: -1;    
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #6098FF;
+    box-shadow: inset 0px 0px 0px #6098FF;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #6098FF;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
 
 .btn:hover::after {
     width: 100%;
 }
 
-
-.two::after {
-    transform: translateX(-100%);
-    transition: all 0.3s ease;
-    visibility: hidden;
+.btn:hover {
+    border-left: 1px solid #6098FF;
+    border-right: 1px solid #6098FF;
 }
 
-.two:hover::after {
-        visibility: visible;
-        transform: translateX(0);
+/* BOTON CERRAR */
+
+.btn-close {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
-.three::after {
-    transition: all 0.5s linear;
+.btn-close::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #ff6060;
+    box-shadow: inset 0px 0px 0px #ff6060;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
 
-.four::after {
-    transition: all 0.5s linear;
-    transform: translateX(-100px);
-    opacity: 0;
+.btn-close:hover::before {
+    width: 100%;
 }
 
-.four:hover::after {
-    transform: translateX(0);
-    opacity: 1;
+.btn-close::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #ff6060;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
 
+.btn-close:hover::after {
+    width: 100%;
+}
+
+.btn-close:hover {
+    border-left: 1px solid #ff6060;
+    border-right: 1px solid #ff6060;
+}

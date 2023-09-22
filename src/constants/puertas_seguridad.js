@@ -1,10 +1,10 @@
 // IMGS 
-import img1 from '../../public/imgs/puertas-de-seguridad-1.jpg'
-import img2 from '../../public/imgs/2000-1.png'
-import img3 from '../../public/imgs/2000-2.png'
-import img4 from '../../public/imgs/2000-3.png'
-import img5 from '../../public/imgs/2000-4.png'
-import img6 from '../../public/imgs/2000-5.png'
+import img1 from '../assets/puertas-de-seguridad-1.jpg'
+import img2 from '../assets/2000-1.png'
+import img3 from '../assets/2000-2.png'
+import img4 from '../assets/2000-3.png'
+import img5 from '../assets/2000-4.png'
+import img6 from '../assets/2000-5.png'
 
 export const seguridad = [
   {
@@ -65,6 +65,8 @@ export const seguridad = [
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
-    img: img5
+    img: img6
   }
 ]
+
+export default seguridad

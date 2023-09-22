@@ -10,8 +10,12 @@ import Index from './pages/Index';
 import Nosotros from './pages/Nosotros';
 import Puertas from './pages/Puertas';
 import Chapasimple from './pages/Chapasimple';
+import Ventanas from './pages/Ventanas';
+import ChapaDoble from './pages/ChapaDoble';
+import Seguridad from './pages/Seguridad';
 
 import { ProductoProvider } from './context/ProductoProvider';
+import Pvc from './pages/Pvc';
 
 const router = createBrowserRouter([
   {
@@ -35,12 +39,32 @@ const router = createBrowserRouter([
         element: <Chapasimple />
       },
       {
+        path: '/doblechapa',
+        element: <ChapaDoble />
+      },
+      {
+        path: '/placa',
+        element: <Chapasimple />
+      },
+      {
+        path: '/seguridad',
+        element: <Seguridad />
+      },
+      {
+        path: '/aluminio',
+        element: <Chapasimple />
+      },
+      {
+        path: '/plegadizas',
+        element: <Chapasimple />
+      },
+      {
         path: '/ventanas',
-        element: <h1>Ventanas</h1>
+        element: <Ventanas />
       },
       {
         path: '/pvc',
-        element: <h1>PVC</h1>
+        element: <Pvc />
       },
     ]
   }

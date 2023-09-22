@@ -1,9 +1,9 @@
 // IMGS
-import img1 from '../../public/imgs/modena--corrediza.jpg'
-import img2 from '../../public/imgs/A30.webp'
-import img3 from '../../public/imgs/herrero-corrediza.jpg'
-import img4 from '../../public/imgs/rotonda-corrediza.jpg'
-import img5 from '../../public/imgs/rotonda_640.jpg'
+import img1 from '../assets/modena--corrediza.jpg'
+import img2 from '../assets/A30.webp'
+import img3 from '../assets/herrero-corrediza.jpg'
+import img4 from '../assets/rotonda-corrediza.jpg'
+import img5 from '../assets/rotonda_640.jpg'
 
 export const ventanas = [
   {
@@ -37,3 +37,5 @@ export const ventanas = [
     img: img5
   },
 ]
+
+export default ventanas
