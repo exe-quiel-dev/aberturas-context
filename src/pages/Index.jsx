@@ -17,7 +17,7 @@ function Index() {
   return (
     <>
       <section className='w-full h-screen flex flex-col md:flex-row items-center justify-center md:justify-center banner-index gap-6'>
-        <Carousel autoPlay={true} infiniteLoop={true} interval={7300} swipeable={true} showStatus={false} className="bg-slate-900 pt-10 w-full">
+        <Carousel autoPlay={true} infiniteLoop={true} interval={7300} swipeable={true} showStatus={false} showThumbs={false} className="bg-slate-900 pt-10 w-full">
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-3/4 md:w-1/3 h-1/2 bg-slate-900 p-4 text-white">
               <h2 className="uppercase text-xl md:text-3xl font-bold mb-4">¿Ya conoces la linea PVC?</h2>
@@ -46,7 +46,7 @@ function Index() {
       </section>
       <section className="flex flex-col min-h-screen items-center justify-center py-10 bg-gray-100">
           <h2 className="text-center uppercase text-xl md:text-2xl lg:text-6xl font-bold text-gray-800 my-10 w-full">Ofertas</h2>
-        <div className="flex items-center justify-center">
+        <div className="items-center justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {ofertas.map(prod => (
             <CardProducto
               key={prod.id}
