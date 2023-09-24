@@ -16,7 +16,7 @@ function Layout() {
             <nav className="flex items-center bg-nav flex-wrap relative md:sticky top-0 z-10 border-b border-gray-200">
                 <div className='w-1/6'>
                     <div className='w-full'>
-                        <h2 className='w-full text-center'><Link to="/" className="p-2 mr-4 inline-flex items-center">
+                        <h2 className='w-full text-center'><Link to="/" className="p-2 mr-4 inline-flex items-center" alt='Imagen logotipo'>
                             <span className="text-xl text-white font-bold uppercase tracking-wide"
                             ><img src={logo} alt='Imagen logotipo' className='hidden lg:inline w-3/5' /></span>
                         </Link></h2>
