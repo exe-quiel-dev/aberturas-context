@@ -9,17 +9,27 @@ import logo from '../assets/logo.png'
 function Layout() {
     const location = useLocation()
 
+    const year = new Date().getFullYear();
+
     return (
         <>
-            <nav className="flex items-center bg-nav p-3 flex-wrap relative md:sticky top-0 z-10 border-b border-gray-200">
-                <h1><Link to="/" className="p-2 mr-4 inline-flex items-center">
-                    <span className="text-xl text-white font-bold uppercase tracking-wide"
-                    ><img src={logo} alt='Imagen logotipo' className='hidden xl:inline w-1/6' /></span>
-                </Link></h1>
-                <h1><Link to="/" className="p-2 mr-4 inline-flex items-center">
-                    <span className="text-xl text-white font-bold uppercase tracking-wide sm:inline xl:hidden"
-                    >Aberturas Marquez</span>
-                </Link></h1>
+            <nav className="flex items-center bg-nav flex-wrap relative md:sticky top-0 z-10 border-b border-gray-200">
+                <div className='w-1/6'>
+                    <div className='w-full'>
+                        <h2 className='w-full text-center'><Link to="/" className="p-2 mr-4 inline-flex items-center">
+                            <span className="text-xl text-white font-bold uppercase tracking-wide"
+                            ><img src={logo} alt='Imagen logotipo' className='hidden lg:inline w-3/5' /></span>
+                        </Link></h2>
+                    </div>
+                </div>
+                <div className='hidden md:flex items-center justify-center w-1/6'>
+                    <h1
+                        className='text-center border-l border-gray-600'
+                    ><Link to="/" className="p-2 mr-4 inline-flex items-center">
+                            <span className="text-xl text-white font-bold uppercase tracking-wide"
+                            >Aberturas Marquez</span>
+                        </Link></h1>
+                </div>
                 <div
                     className="top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
                     id="navigation"
@@ -29,31 +39,31 @@ function Layout() {
                     >
                         <Link
                             to="/"
-                            className={`${location.pathname === '/' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white`}
+                            className={`${location.pathname === '/' ? 'text-orange-400' : 'text-whitorange-400 transition-colors'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Inicio</span>
                         </Link>
                         <Link
                             to="/puertas"
-                            className={`${location.pathname === '/puertas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white`}
+                            className={`${location.pathname === '/puertas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Puertas</span>
                         </Link>
                         <Link
                             to="/ventanas"
-                            className={`${location.pathname === '/ventanas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white`}
+                            className={`${location.pathname === '/ventanas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Ventanas</span>
                         </Link>
                         <Link
                             to="/pvc"
-                            className={`${location.pathname === '/pvc' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white`}
+                            className={`${location.pathname === '/pvc' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Linea PVC</span>
                         </Link >
                         <Link
                             to="/nosotros"
-                            className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white`}
+                            className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Contacto</span>
                         </Link>
@@ -65,6 +75,9 @@ function Layout() {
             </main>
             <footer>
                 <nav className="flex items-center bg-gray-800 p-3 flex-wrap">
+                    <div className='flex flex-col justify-center'>
+                        <p className='text-xs text-white'>© Todos los derechos reservados {year}</p>
+                    </div>
                     <div
                         className="top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
                         id="navigation"
