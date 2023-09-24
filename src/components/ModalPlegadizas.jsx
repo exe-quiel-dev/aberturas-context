@@ -1,7 +1,7 @@
 import useProducto from "../hooks/useProducto"
 
-const ModalProducto = () => {
-  const { producto, handleModalProducto } = useProducto() 
+const ModalPlegadizas = () => {
+  const { producto, handleModalProducto } = useProducto()
 
   return (
     <div
@@ -15,10 +15,8 @@ const ModalProducto = () => {
         <div className="p-4 w-full text-center">
           <h2 className="font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center">{producto.nombre}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-center">
-            <p className="font-bold py-2">Marco: <span className="font-light">{producto.marco}</span></p>
-            <p className="font-bold py-2">Hoja: <span className="font-light">{producto.hoja}</span></p>
-            <p className="font-bold py-2">Bisagras: <span className="font-light">{producto.bisagras}</span></p>
-            <p className="font-bold py-2">Cerradura: <span className="font-light">{producto.cerradura}</span></p>
+            <p className="font-bold py-2">Colores: <span className="font-light">{producto.colores}</span></p>
+            <p className="font-bold py-2">Vidrio: <span className="font-light">{producto.vidrio}</span></p>
           </div>
         </div>
       </div>
@@ -26,4 +24,4 @@ const ModalProducto = () => {
   )
 }
 
-export default ModalProducto
+export default ModalPlegadizas

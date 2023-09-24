@@ -13,6 +13,8 @@ import Chapasimple from './pages/Chapasimple';
 import Ventanas from './pages/Ventanas';
 import ChapaDoble from './pages/ChapaDoble';
 import Seguridad from './pages/Seguridad';
+import Aluminio from './pages/Aluminio';
+import Plegadizas from './pages/Plegadizas';
 
 import { ProductoProvider } from './context/ProductoProvider';
 import Pvc from './pages/Pvc';
@@ -52,11 +54,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/aluminio',
-        element: <Chapasimple />
+        element: <Aluminio />
       },
       {
         path: '/plegadizas',
-        element: <Chapasimple />
+        element: <Plegadizas />
       },
       {
         path: '/ventanas',

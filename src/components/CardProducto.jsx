@@ -7,7 +7,7 @@ const CardProducto = ({prod}) => {
 
   return (
     <div
-      className="w-full text-center border border-gray-300 flex flex-col items-center justify-center p-2"
+      className="w-full text-center border border-gray-300 flex flex-col items-center justify-center p-2 hover:shadow-md transition-all hover:border-gray-400"
     >
       <img src={prod.img} alt={`Imagen ${prod.nombre}`} onClick={handleModalProducto} />
       <h2>{prod.nombre}</h2>

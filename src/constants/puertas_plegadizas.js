@@ -1,19 +1,19 @@
 // IMGS
-import img1 from '../../public/imgs/plegadiza-pvc-ciega-6mm.jpg'
-import img2 from '../../public/imgs/puerta_todo_vidrio_2.jpg'
-// import img9 from '../../public/imgs/simil_madera_todo_acrilico.jpg'
-// import img4 from '../../public/imgs/ciega_simil.jpg'
-// import img6 from '../../public/imgs/simil_roble.jpg'
-// import img7 from '../../public/imgs/simil_mogno.jpg'
-// import img8 from '../../public/imgs/simil_blanco.jpg'
-// import img11 from '../../public/imgs/plegadiza-cedro.jpg'
-// import img13 from '../../public/imgs/plegadiza-vitraux.jpg'
-// import img14 from '../../public/imgs/plegadiza-cedro-vidrio-entero-recto.jpg'
-// import img15 from '../../public/imgs/plegadiza-caoba-vidrio-entero-recto.jpg'
-// import img16 from '../../public/imgs/plegadiza-medio-punto.jpg'
+import img1 from '../assets/plegadiza-pvc-ciega-6mm.jpg'
+import img2 from '../assets/puerta_todo_vidrio_2.jpg'
+import img9 from '../assets/simil_madera_todo_acrilico.jpg'
+import img4 from '../assets/ciega_simil.jpg'
+import img6 from '../assets/simil_roble.jpg'
+import img7 from '../assets/simil_mogno.jpg'
+import img8 from '../assets/simil_blanco.jpg'
+import img11 from '../assets/plegadiza-cedro.jpg'
+import img13 from '../assets/plegadiza-vitraux.jpg'
+import img14 from '../assets/plegadiza-cedro-vidrio-entero-recto.jpg'
+import img15 from '../assets/plegadiza-caoba-vidrio-entero-recto.jpg'
+import img16 from '../assets/plegadiza-medio-punto.jpg'
 
 
-export const plegadizas = [
+const plegadizas = [
   {
     id: 1,
     nombre: 'Puerta plegadiza ciega 6 mm',
@@ -49,81 +49,83 @@ export const plegadizas = [
     vidrio: 'Crystal, Fumee',
     img: img2
     },
-    // {
-    // id: 6,
-    // nombre: 'Puerta plegadiza Simil Roble',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img6
-    // },
-    // {
-    // id: 7,
-    // nombre: 'Puerta plegadiza Simil Mogno',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img7
-    // },
-    // {
-    // id: 8,
-    // nombre: 'Puerta plegadiza Simil Blanco',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img8
-    // },
-    // {
-    // id: 9,
-    // nombre: 'Puerta plegadiza Simil Madera / Todo acrilico',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img9
-    // },
-    // {
-    // id: 10,
-    // nombre: 'Puerta plegadiza Caoba en 2 hojas',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img4
-    // },
-    // {
-    // id: 11,
-    // nombre: 'Puerta plegadiza Cedro',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img11
-    // },
-    // {
-    // id: 12,
-    // nombre: 'Puerta plegadiza Cedro en 2 hojas',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img8
-    // },
-    // {
-    // id: 13,
-    // nombre: 'Puerta plegadiza Vitraux medio punto',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img13
-    // },
-    // {
-    // id: 14,
-    // nombre: 'Puerta plegadiza Cedro / Vidrio entero recto',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img14
-    // },
-    // {
-    // id: 15,
-    // nombre: 'Puerta plegadiza Caoba / Vidrio entero recto',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img15
-    // },
-    // {
-    // id: 16,
-    // nombre: 'Puerta plegadiza Cedro / Vidrio entero medio punto',
-    // colores: ' - ',
-    // vidrio: ' - ',
-    // img: img16
-    // }
+    {
+    id: 6,
+    nombre: 'Puerta plegadiza Simil Roble',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img6
+    },
+    {
+    id: 7,
+    nombre: 'Puerta plegadiza Simil Mogno',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img7
+    },
+    {
+    id: 8,
+    nombre: 'Puerta plegadiza Simil Blanco',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img8
+    },
+    {
+    id: 9,
+    nombre: 'Puerta plegadiza Simil Madera / Todo acrilico',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img9
+    },
+    {
+    id: 10,
+    nombre: 'Puerta plegadiza Caoba en 2 hojas',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img4
+    },
+    {
+    id: 11,
+    nombre: 'Puerta plegadiza Cedro',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img11
+    },
+    {
+    id: 12,
+    nombre: 'Puerta plegadiza Cedro en 2 hojas',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img8
+    },
+    {
+    id: 13,
+    nombre: 'Puerta plegadiza Vitraux medio punto',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img13
+    },
+    {
+    id: 14,
+    nombre: 'Puerta plegadiza Cedro / Vidrio entero recto',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img14
+    },
+    {
+    id: 15,
+    nombre: 'Puerta plegadiza Caoba / Vidrio entero recto',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img15
+    },
+    {
+    id: 16,
+    nombre: 'Puerta plegadiza Cedro / Vidrio entero medio punto',
+    colores: ' - ',
+    vidrio: ' - ',
+    img: img16
+    }
 ]
+
+export default plegadizas
