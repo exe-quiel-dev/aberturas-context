@@ -73,7 +73,7 @@ function Layout() {
                             className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto"
                         >
                             <div className='w-1/3 text-white flex items-center justify-center'>
-                                <a href='https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==' target='_blank' rel='noreferrer' alt="Logotipo instagram"><AiOutlineInstagram className='mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
+                                <a href='https://www.instagram.com/aberturasmarquez/' target='_blank' rel='noreferrer' alt="Logotipo instagram"><AiOutlineInstagram className='mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
                                 <a href='https://wa.me/541168164079' target='_blank' rel='noreferrer' alt="Logotipo whatsapp"><AiOutlineWhatsApp className='mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer' /></a>
                                 <a href='https://www.facebook.com/aberturas.marquez.3?mibextid=ZbWKwL' target='_blank' rel='noreferrer' alt="Logotipo facebook"><AiOutlineFacebook className='mx-2 w-6 h-6 hover:text-blue-600 transition-colors hover:cursor-pointer' /></a>
                                 <Link to='/nosotros' alt="Icono nosotros"><AiOutlineEnvironment className='mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer' /></Link>
