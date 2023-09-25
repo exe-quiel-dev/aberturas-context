@@ -46,7 +46,7 @@ function Index() {
                 to='/acrilicos'
                 className='uppercase text-lg md:text-2xl transition-all btn'
                 disabled={true}
-              >Ver Acrilicos</button>
+              >Ver Acrilicos (proximamente)</button>
             </div>
           </div>
         </Carousel>

@@ -22,7 +22,7 @@ function Layout() {
                         </Link></h2>
                     </div>
                 </div>
-                <div className='hidden md:flex items-center justify-center w-1/6'>
+                <div className='hidden lg:flex items-center justify-center w-1/6'>
                     <h1
                         className='text-center border-l border-gray-600'
                     ><Link to="/" className="p-2 mr-4 inline-flex items-center">
