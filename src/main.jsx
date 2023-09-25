@@ -67,7 +67,7 @@ const router = createBrowserRouter([
       {
         path: '/pvc',
         element: <Pvc />
-      },
+      }
     ]
   }
 ]);

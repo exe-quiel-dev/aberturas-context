@@ -35,7 +35,7 @@ function Layout() {
                     id="navigation"
                 >
                     <div
-                        className="grid grid-cols-2 md:flex md:flex-col lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto"
+                        className="grid grid-cols-2 lg:flex lg:flex-col xl:inline-flex xl:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto"
                     >
                         <Link
                             to="/"
@@ -76,7 +76,7 @@ function Layout() {
             <footer>
                 <nav className="flex items-center bg-gray-800 p-3 flex-wrap">
                     <div className='flex flex-col justify-center'>
-                        <p className='text-xs text-white'>© Todos los derechos reservados {year}</p>
+                        <p className='text-xs text-white py-2'>© Todos los derechos reservados {year}</p>
                     </div>
                     <div
                         className="top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
