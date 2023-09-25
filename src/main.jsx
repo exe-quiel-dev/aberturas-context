@@ -15,6 +15,7 @@ import ChapaDoble from './pages/ChapaDoble';
 import Seguridad from './pages/Seguridad';
 import Aluminio from './pages/Aluminio';
 import Plegadizas from './pages/Plegadizas';
+import Acrilicos from './pages/Acrilicos';
 
 import { ProductoProvider } from './context/ProductoProvider';
 import Pvc from './pages/Pvc';
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: '/pvc',
         element: <Pvc />
+      },
+      {
+        path: '/acrilicos',
+        element: <Acrilicos />
       }
     ]
   }

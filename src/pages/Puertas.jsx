@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Puertas = () => {
     return (
-        <section className="min-h-screen h-screen flex items-center jusrify-center bg-puertas">
+        <section className="min-h-screen flex items-center jusrify-center bg-puertas">
             <div className="flex flex-col lg:grid lg:grid-cols-6 items-center justify-items-center p-10 w-full h-full gap-6 backdrop-blur-sm">
           <Link
             to='/chapasimple'
