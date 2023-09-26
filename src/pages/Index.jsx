@@ -42,11 +42,11 @@ function Index() {
             <div className="flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-3/4 md:w-1/3 h-1/2 bg-slate-900 p-10 text-white">
               <h2 className="uppercase text-xl md:text-3xl font-bold mb-4">Acrilicos</h2>
               <p className="text-md md:text-xl py-5 border-t">Placas de acrilico fantasia con variedad de diseños para que puedas crear la ambientación deseada.</p>
-              <button
+              <Link
                 to='/acrilicos'
                 className='uppercase text-lg md:text-2xl transition-all btn'
                 disabled={true}
-              >Ver Acrilicos (proximamente)</button>
+              >Ver Acrilicos</Link>
             </div>
           </div>
         </Carousel>
