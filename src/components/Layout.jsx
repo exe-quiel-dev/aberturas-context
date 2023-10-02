@@ -39,37 +39,37 @@ function Layout() {
                     >
                         <Link
                             to="/"
-                            className={`${location.pathname === '/' ? 'text-orange-400' : 'text-whitorange-400 transition-colors'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/' ? 'text-orange-400' : 'text-white transition-colors'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Inicio</span>
                         </Link>
                         <Link
                             to="/puertas"
-                            className={`${location.pathname === '/puertas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/puertas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Puertas</span>
                         </Link>
                         <Link
                             to="/ventanas"
-                            className={`${location.pathname === '/ventanas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/ventanas' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Ventanas</span>
                         </Link>
                         <Link
                             to="/pvc"
-                            className={`${location.pathname === '/pvc' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/pvc' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Linea PVC</span>
                         </Link >
                         <Link
                             to="/acrilicos"
-                            className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/acrilicos' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Acrilicos</span>
                         </Link>
                         <Link
                             to="/nosotros"
-                            className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                            className={`${location.pathname === '/nosotros' ? 'text-orange-400' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
                             <span>Contacto</span>
                         </Link>
