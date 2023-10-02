@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/nosotros", "destination": "/Nosotros.jsx", "permanent": false }
+  ]
+}
