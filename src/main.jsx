@@ -30,47 +30,47 @@ const router = createBrowserRouter([
         element: <Index />
       },
       {
-        path: '/nosotros',
+        path: '/Nosotros',
         element: <Nosotros />
       },
       {
-        path: '/puertas',
+        path: '/Puertas',
         element: <Puertas />
       },
       {
-        path: '/chapasimple',
+        path: '/Chapasimple',
         element: <Chapasimple />
       },
       {
-        path: '/doblechapa',
+        path: '/Doblechapa',
         element: <ChapaDoble />
       },
       {
-        path: '/placa',
+        path: '/Placa',
         element: <Chapasimple />
       },
       {
-        path: '/seguridad',
+        path: '/Seguridad',
         element: <Seguridad />
       },
       {
-        path: '/aluminio',
+        path: '/Aluminio',
         element: <Aluminio />
       },
       {
-        path: '/plegadizas',
+        path: '/Plegadizas',
         element: <Plegadizas />
       },
       {
-        path: '/ventanas',
+        path: '/Ventanas',
         element: <Ventanas />
       },
       {
-        path: '/pvc',
+        path: '/Pvc',
         element: <Pvc />
       },
       {
-        path: '/acrilicos',
+        path: '/Acrilicos',
         element: <Acrilicos />
       }
     ]
