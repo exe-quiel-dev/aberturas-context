@@ -62,6 +62,12 @@ function Layout() {
                             <span>Linea PVC</span>
                         </Link >
                         <Link
+                            to="/acrilicos"
+                            className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
+                        >
+                            <span>Acrilicos</span>
+                        </Link>
+                        <Link
                             to="/nosotros"
                             className={`${location.pathname === '/nosotros' ? 'text-amber-500' : 'text-white'} lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-orange-400 transition-colors`}
                         >
