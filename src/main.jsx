@@ -6,19 +6,19 @@ import './index.css'
 
 import Layout from './components/Layout';
 
-import Index from './pages/index';
-import Nosotros from './pages/nosotros';
-import Puertas from './pages/puertas';
-import Chapasimple from './pages/chapasimple';
-import Ventanas from './pages/ventanas';
-import ChapaDoble from './pages/chapaDoble';
-import Seguridad from './pages/seguridad';
-import Aluminio from './pages/aluminio';
-import Plegadizas from './pages/plegadizas';
-import Acrilicos from './pages/acrilicos';
+import Index from './pages/Index';
+import Nosotros from './pages/Nosotros';
+import Puertas from './pages/Puertas';
+import Chapasimple from './pages/Chapasimple';
+import Ventanas from './pages/Ventanas';
+import ChapaDoble from './pages/ChapaDoble';
+import Seguridad from './pages/Seguridad';
+import Aluminio from './pages/Aluminio';
+import Plegadizas from './pages/Plegadizas';
+import Acrilicos from './pages/Acrilicos';
 
 import { ProductoProvider } from './context/ProductoProvider';
-import Pvc from './pages/pvc';
+import Pvc from './pages/Pvc';
 
 const router = createBrowserRouter([
   {
