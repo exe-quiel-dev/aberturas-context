@@ -6,7 +6,7 @@ import './index.css'
 
 import Layout from './components/Layout';
 
-import Index from './pages';
+import Index from './pages/index';
 import Nosotros from './pages/nosotros';
 import Puertas from './pages/puertas';
 import Chapasimple from './pages/chapasimple';
