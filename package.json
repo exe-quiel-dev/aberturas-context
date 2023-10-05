@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.15",
+    "fs": "^0.0.1-security",
+    "globby": "^13.2.2",
     "modern-normalize": "^2.0.0",
     "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
