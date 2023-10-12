@@ -1,0 +1,14 @@
+Sitemap: https://www.aberturasmarquez.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /nosotros
+Allow: /puertas
+Allow: /chapasimple
+Allow: /doblechapa
+Allow: /placa
+Allow: /seguridad
+Allow: /aluminio
+Allow: /ventanas
+Allow: /plegadizas
+Allow: /pvc
+Allow: /acrilicos

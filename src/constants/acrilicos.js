@@ -10,42 +10,42 @@ import img8 from '../assets/acrilico_8.jpg'
 const acrilicos = [
   {
     id: 1,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img1
   },
   {
     id: 2,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img2
   },
   {
     id: 3,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img3
   },
   {
     id: 4,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img4
   },
   {
     id: 5,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img5
   },
   {
     id: 6,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img6
   },
   {
     id: 7,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img7
   },
   {
     id: 8,
-    info: ' - ',
+    info: 'El poliestireno es un material plástico que resulta de la polimerización del estireno. En el caso de las chapas de poliestireno grabadas que comercializamos el material usado en su fabricación por extrusión es el GPPS(De uso general).',
     img: img8
   }
 ]
