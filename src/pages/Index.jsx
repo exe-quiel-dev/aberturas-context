@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 
-import ofertas from "../constants/ofertas";
+import { prod1 } from '../constants/ofertas'
+import { prod2 } from '../constants/ofertas'
+import { prod3 } from '../constants/ofertas'
 
 import ModalProducto from "../components/ModalProducto";
-import CardProducto from "../components/CardProducto";
+import CardOfertas from "../components/CardOfertas";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -52,15 +54,33 @@ function Index() {
         </Carousel>
       </section>
       <section className="flex flex-col min-h-screen items-center justify-center py-10 bg-gray-100">
-          <h2 className="text-center uppercase text-xl md:text-2xl lg:text-6xl font-bold text-gray-800 my-10 w-full">Ofertas</h2>
-        <div className="items-center justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {ofertas.map(prod => (
-            <CardProducto
-              key={prod.id}
-              prod={prod}
-            />
-          ))}
-        </div>
+        <h2 className="text-center uppercase text-xl md:text-2xl lg:text-6xl font-bold text-gray-800 my-10 w-ful">Ofertas</h2>
+        <Carousel autoPlay={true} infiniteLoop={true} interval={7300} swipeable={true} showStatus={false} showThumbs={false} className="bg-slate-900 pt-10 w-full">
+          <div className="flex justify-center pb-10">
+            <div className="w-1/3">
+              <CardOfertas
+                key={prod1.id}
+                prod={prod1}
+              />
+            </div>
+          </div>
+          <div className="flex justify-center pb-10">
+            <div className="w-1/3">
+              <CardOfertas
+                key={prod2.id}
+                prod={prod2}
+              />
+            </div>
+          </div>
+          <div className="flex justify-center pb-10">
+            <div className="w-1/3">
+              <CardOfertas
+                key={prod3.id}
+                prod={prod3}
+              />
+            </div>
+          </div>
+        </Carousel>
         {modal && <ModalProducto />}
       </section>
     </>

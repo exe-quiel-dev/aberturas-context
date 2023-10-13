@@ -16,6 +16,7 @@ import Seguridad from './pages/Seguridad';
 import Aluminio from './pages/Aluminio';
 import Plegadizas from './pages/Plegadizas';
 import Acrilicos from './pages/Acrilicos';
+import Placa from './pages/Placa';
 
 import { ProductoProvider } from './context/ProductoProvider';
 import Pvc from './pages/Pvc';
@@ -47,7 +48,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/placa',
-        element: <Chapasimple />
+        element: <Placa />
       },
       {
         path: '/seguridad',

@@ -3,7 +3,7 @@ import img2 from '../assets/2000-1.png'
 import img3 from '../assets/puerta-placa-moldurada-lineal.jpg'
 
 
-const ofertas = [
+export const prod1 = 
   {
     id: 1,
     nombre: 'Clasica 1865',
@@ -13,7 +13,8 @@ const ofertas = [
     bisagras: '-',
     cerradura: 'No especificado',
     img: img1
-  },
+  }
+export const prod2 = 
   {
     id: 2,
     nombre: 'Linea 2000',
@@ -23,7 +24,8 @@ const ofertas = [
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
     img: img2
-  },
+  }
+export const prod3 =
   {
     id:3,
     nombre: 'Puerta Moldurada Lineal',
@@ -33,7 +35,4 @@ const ofertas = [
     bisagras: 'De acero cincado azul (plateado) de 3 tornillos',    
     cerradura: 'Comun de interior', 
     img: img3
-    },
-]
-
-export default ofertas
+    }
